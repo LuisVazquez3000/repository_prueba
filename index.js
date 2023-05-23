@@ -6,7 +6,7 @@ let players =['Messi', 'Alvarez', 'Fernandez','Martinez', 'Romero'];
 
 
 const mapeoPlayers = (scoresMundial, playersMundial)=>{
-  let playerFootball = [];
+  let playerFootball =[];
   
   for (let i = 0; i < players.length; i++) {
     
