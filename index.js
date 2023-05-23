@@ -31,7 +31,8 @@ const evalPerformance =(scores, players)=>{
   //jugadores con mejor performance:
   console.log("jugadores con mejor performance:");
   console.log(filteroutstandingPlayers(mapeoPlayers(scores, players)));
-  console.log("---------------------");
+  console.log("-------------------------");
+  console.log("-------------------------");
   //juagadores con regular performance:
   console.log("jugadores con Regular performance:");
   console.log(filterRegularPlayer(mapeoPlayers(scores, players)));
