@@ -21,7 +21,7 @@ const mapeoPlayers = (scoresMundial, playersMundial)=>{
 }
 const filteroutstandingPlayers = (callback)=>{
   let outstandingPlayers = callback.filter(e=>e.score>7);
-  return outstandingPlayers;
+ return outstandingPlayers;
 }
 const filterRegularPlayer = (cb)=>{
   let regularPlayer = cb.filter(e => e.score <= 7);
