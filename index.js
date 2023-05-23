@@ -25,7 +25,7 @@ const filteroutstandingPlayers = (callback)=>{
 }
 const filterRegularPlayer = (cb)=>{
   let regularPlayer = cb.filter(e => e.score <= 7);
-  return regularPlayer;
+return regularPlayer;
 }
 const evalPerformance =(scores, players)=>{
   //jugadores con mejor performance:
